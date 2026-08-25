@@ -24,7 +24,7 @@ This course bridges the gap between Programming 1 and Programming 2 while diving
 - **[GitHub Error Handling](GitSetupErrorHelp.md)** - How to handle the UserName error when pushing for the first time
 
 ## 🗂️ Repositories
-- **[assignments](https://github.com/LT-Intro-To-AI-SY2627/assignments)** — Individual GitHub assignments (GH-1, GH-2, etc.)
+- **[assignments](https://github.com/LT-IntroToAI-SY2627/assignments)** — Individual GitHub assignments (GH-1, GH-2, etc.)
 - **[Class Project](https://github.com/lanetech-intro-ai/lanetech-infobot)** — Our shared class-built app
 
 ## 📅 Important Dates
