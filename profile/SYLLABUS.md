@@ -1,8 +1,8 @@
 # Introduction to AI
-**Lane Tech College Prep  |  [School Year]**  
-**Instructor:** [Instructor Name]  
-**Room:** [Room Number]  
-**Email:** [Email Address]
+**Lane Tech College Prep  |  2026-2027**  
+**Instructor:** Mr. Berg 
+**Room:** 129  
+**Email:** rberg@cps.edu
 
 ---
 
