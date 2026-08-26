@@ -11,14 +11,14 @@ All class code lives inside a GitHub organization called `LT-IntroToAI-SY2627`. 
 LT-IntroToAI-SY2627/                        ← GitHub Organization
 │
 ├── assignments/                          ← Repo 1: mini assignments
-│   ├── gh1/                              ← instructor creates with starter files
+│   ├── gh1/                              ← Mr. Berg creates with starter files
 │   │   ├── gh1-alexj/                     ← your branch + your personal file
 │   │   └── gh1-mariac/
 │   ├── gh2/
 │   └── gh3/ ...
 │
 └── [class-project-repo]/                     ← Repo 2: shared class project
-    ├── main                              ← protected, instructor merges only
+    ├── main                              ← protected, Mr. Berg merges only
     └── dev                              ← integration branch, students PR here
         ├── unit3-club-class-alexj/        ← your feature branch
         └── unit5-gemini-handler-mariac/
@@ -40,8 +40,8 @@ LT-IntroToAI-SY2627/                        ← GitHub Organization
 | `push` | Send your local commits up to GitHub |
 | `pull` | Download the latest changes from GitHub |
 | `pull request` | A request to merge your branch into another — how you submit work |
-| `merge` | Combining one branch into another — your instructor does this after reviewing |
-| `main` | The protected main branch — only the instructor merges here |
+| `merge` | Combining one branch into another — Mr. Berg does this after reviewing |
+| `main` | The protected main branch — only Mr. Berg merges here |
 | `dev` | The integration branch for the class project — you PR your features here |
 | `origin` | The name Git uses to refer to the remote copy of the repo on GitHub |
 
@@ -73,7 +73,7 @@ git pull origin <branch-name>
 
 ## 4. Mini Assignment Workflow
 
-Each assignment has its own branch that your instructor creates with starter files. You branch off it, create your personal file, and submit a pull request when done.
+Each assignment has its own branch that Mr. Berg creates with starter files. You branch off it, create your personal file, and submit a pull request when done.
 
 ### Naming Conventions
 
@@ -155,9 +155,9 @@ git push origin unit3-club-class-alexj
 - Click **Compare & pull request**
 - Set the base branch to `dev` — **not main**
 - Request a peer review from a classmate
-- Submit and wait for instructor merge
+- Submit and wait for Mr. Berg to merge
 
-> **Merge Conflicts:** Later in the year, multiple students may edit the same file. Git will flag this as a merge conflict. Do not panic — your instructor will walk you through resolving it. It is a normal part of collaborative development.
+> **Merge Conflicts:** Later in the year, multiple students may edit the same file. Git will flag this as a merge conflict. Do not panic — Mr. Berg will walk you through resolving it. It is a normal part of collaborative development.
 
 ---
 
@@ -172,7 +172,7 @@ git push origin unit3-club-class-alexj
 | Rejected push | Local branch is behind the remote | `git pull origin <branch-name>` first, then push again |
 | Merge conflict | Two people edited the same lines | Open the file, look for `<<<<<<` markers, resolve manually, then add and commit |
 | Can't find repo folder | Wrong directory in terminal | Run `ls` to see what's here, then `cd` to navigate |
-| PR won't merge | Conflicts or failing checks | Ask your instructor — do not force merge |
+| PR won't merge | Conflicts or failing checks | Ask Mr. Berg — do not force merge |
 
 ---
 
@@ -209,4 +209,4 @@ git push origin unit3-club-class-alexj
 
 ---
 
-*Questions? Check the `contributing.md` file in the class repo, or ask your instructor.*
+*Questions? Check the `contributing.md` file in the class repo, or ask Mr. Berg.*
