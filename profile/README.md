@@ -20,9 +20,11 @@ This course bridges the gap between Programming 1 and Programming 2 while diving
 ## 📋 Course Documents
 - **[Full Syllabus](SYLLABUS.md)** — Complete course policies, grading, and expectations
 - **[GitHub Workflow Guide](GITHUB_WORKFLOW.md)** — How to work with our repos, branches, and pull requests
+- **[GitHub Push Guide](GitHubPushGuide.md)** - How to push to github
+- **[GitHub Error Handling](GitSetupErrorHelp.md)** - How to handle the UserName error when pushing for the first time
 
 ## 🗂️ Repositories
-- **[assignments](https://github.com/lanetech-intro-ai/assignments)** — Individual GitHub assignments (GH-1, GH-2, etc.)
+- **[assignments](https://github.com/LT-IntroToAI-SY2627/assignments)** — Individual GitHub assignments (GH-1, GH-2, etc.)
 - **[Class Project](https://github.com/lanetech-intro-ai/lanetech-infobot)** — Our shared class-built app
 
 ## 📅 Important Dates
