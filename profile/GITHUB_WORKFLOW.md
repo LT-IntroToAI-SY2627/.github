@@ -5,28 +5,28 @@
 
 ## 1. How Our Code is Organized
 
-All class code lives inside a GitHub organization called `LT-IntroToAI-SY2627`. Inside it are two repositories — one for individual assignments and one for the shared class project.
+All class code lives inside a GitHub organization called `lanetech-intro-ai`. Inside it are two repositories — one for individual assignments and one for the shared class project.
 
 ```
-LT-IntroToAI-SY2627/                        ← GitHub Organization
+lanetech-intro-ai/                        ← GitHub Organization
 │
 ├── assignments/                          ← Repo 1: mini assignments
 │   ├── gh1/                              ← instructor creates with starter files
-│   │   ├── gh1-alexj/                     ← your branch + your personal file
-│   │   └── gh1-mariac/
+│   │   ├── gh1-alex/                     ← your branch + your personal file
+│   │   └── gh1-maria/
 │   ├── gh2/
 │   └── gh3/ ...
 │
-└── [class-project-repo]/                     ← Repo 2: shared class project
+└── lanetech-infobot/                     ← Repo 2: shared class project
     ├── main                              ← protected, instructor merges only
     └── dev                              ← integration branch, students PR here
-        ├── unit3-club-class-alexj/        ← your feature branch
-        └── unit5-gemini-handler-mariac/
+        ├── unit3-club-class-alex/        ← your feature branch
+        └── unit5-gemini-handler-maria/
 ```
 
 > **Key Rule:**
 > - Mini assignments → `assignments` repo, branch off the assignment branch (`gh1`, `gh2`, etc.)
-> - Class project → `[class-project-repo]` repo, branch off `dev`
+> - Class project → `lanetech-infobot` repo, branch off `dev`
 
 ---
 
@@ -55,9 +55,9 @@ You will do all your coding inside a virtual machine (VM). Here is what to do ev
 2. Open a terminal
 3. Navigate to your repo folder:
 ```bash
-cd LT-IntroToAI-SY2627/assignments
+cd lanetech-intro-ai/assignments
 # or for the class project:
-cd LT-IntroToAI-SY2627/[class-project-repo]
+cd lanetech-intro-ai/lanetech-infobot
 ```
 4. Check your branch and pull the latest:
 ```bash
@@ -79,8 +79,8 @@ Each assignment has its own branch that your instructor creates with starter fil
 
 | Thing | Convention |
 |---|---|
-| Your branch | `gh#-firstnamelastinitial` — example: `gh1-alexj` |
-| Your file | `greetings_alexj.py` — match your first name and last initial consistently all year |
+| Your branch | `gh#-firstname` — example: `gh1-alex` |
+| Your file | `greetings_alex.py` — match your first name consistently all year |
 | Commit message | Short, present tense: `Add greet_user function` not `I did the thing` |
 
 ### Step-by-Step
@@ -93,12 +93,12 @@ git pull origin gh1
 
 **Step 2 — Create your personal branch:**
 ```bash
-git checkout -b gh1-alexj
+git checkout -b gh1-alex
 ```
 
 **Step 3 — Create your personal file — never edit a classmate's file:**
 ```bash
-touch greetings/greetings_alexj.py
+touch greetings/greetings_alex.py
 ```
 
 **Step 4 — Write your code in VS Code. Save often.**
@@ -107,7 +107,7 @@ touch greetings/greetings_alexj.py
 ```bash
 git add .
 git commit -m "Add greet_user function"
-git push origin gh1-alexj
+git push origin gh1-alex
 ```
 
 **Step 6 — Open a Pull Request on GitHub:**
@@ -126,7 +126,7 @@ The class project uses a two-branch protection system. You never push directly t
 
 | Thing | Convention |
 |---|---|
-| Your branch | `unit#-feature-firstnamelastinitial` — example: `unit3-club-class-alexj` |
+| Your branch | `unit#-feature-firstname` — example: `unit3-club-class-alex` |
 | PR target | Always `dev` — never `main` |
 | Commit message | Describe the feature: `Add Club class with get_info method` |
 
@@ -140,18 +140,18 @@ git pull origin dev
 
 **Step 2 — Create your feature branch:**
 ```bash
-git checkout -b unit3-club-class-alexj
+git checkout -b unit3-club-class-alex
 ```
 
 **Step 3 — Do your work. Commit often with clear messages.**
 
 **Step 4 — Push your feature branch:**
 ```bash
-git push origin unit3-club-class-alexj
+git push origin unit3-club-class-alex
 ```
 
 **Step 5 — Open a Pull Request on GitHub:**
-- Go to the `[class-project-repo]` repo
+- Go to the `lanetech-infobot` repo
 - Click **Compare & pull request**
 - Set the base branch to `dev` — **not main**
 - Request a peer review from a classmate
